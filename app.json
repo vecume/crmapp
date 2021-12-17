@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "crmapp",
-    "slug": "crmapp",
-    "version": "1.0.0",
+    "name": "Diamonds",
+    "slug": "diamonds",
+    "version": "2.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
@@ -17,13 +17,16 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "uz.softcity.diamond"
     },
     "android": {
+      "versionCode": 2,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "uz.softcity.diamond"
     },
     "web": {
       "favicon": "./assets/favicon.png"
